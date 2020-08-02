@@ -17,17 +17,17 @@
   西南交通大学A3班 2018112787 - Team leader & coding
   西南交通大学A3班 2018112739 - Team manager & debugging
  仓库目录介绍：
-    1. 源代码(Sourcecode\projectsuc\projectsucc.srcs\sources_1\new)
+    1. 源代码(Sourcecode\breakout.srcs\sources_1\new)
        1.1 ball_control.v   ball
        1.2 board_control.v   board
        1.3 brick_control.v   brick
        1.4 Driver_HDMI.v    Vga_R,Vga_G,Vga_B to [23:0]RGB_data
        1.5 game_control.v   top entity
        1.6 turn2rgb.v  R,G,B generator
-       1.7 others...   Reference code that the project do not use.
-    2. 约束文件(Sourcecode\projectsuc\projectsucc.srcs\constrs_1\imports\vivadoprojects\system.xdc)
+    2. 约束文件(Sourcecode\breakout.srcs\constrs_1\imports\vivadoprojects\system.xdc)
         适用于xc7s15ftgb196-1
-    3. ip核(Sourcecode\projectsuc\projectsucc.srcs\new\sources_1\ip)
+    3. ip核(Sourcecode\breakout.srcs\new\sources_1\ip)
        3.1 clk_wiz_0 100MHz in   148.5MHz & 742.5MHz out
        3.2 rgb2dvi_0 1080P-60Hz [23:0] RGB_data in
-    4. bit文件(Sourcecode\projectsuc\projectsucc.runs\impl_1\game_control.bit)
+    4. bit文件(ExecutableFiles\game_control.bit)
+    5. 工程(breakout.zip)
